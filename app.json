@@ -7,5 +7,40 @@
     ],
     "repository": "https://github.com/r0ld3x/python-checker-bot",
     "success_url": "https://github.com/r0ld3x/python-checker-bot",
-    "stack": "heroku-20"
+    "stack": "heroku-20",
+    "env": {
+    "API_ID": {
+            "description": "You api id, from my.telegram.org or @ScrapperRoBot.",
+            "value": "", 
+            "required": true
+        },
+        "API_HASH": {
+            "description": "You api hash, from my.telegram.org or @ScrapperRoBot.",
+            "value": "",
+            "required": true
+        },
+       "REDIS_URI": {
+            "description": "Redis endpoint URL, from redislabs.com",
+            "value": "",
+            "required": true
+        },
+        "REDIS_PASSWORD": {
+            "description": "Redis endpoint password, from redislabs.com",
+            "value": "",
+            "required": true
+        },
+        
+        "BOT_USERNAME":{
+        "description": "BOT USERNAME FROM TELEGRAM",
+        "value": "",
+        "required": true
+        },
+        
+        "MONGO_URI":{
+        "description": "MONGO_URI from https://www.mongodb.com/cloud/atlas/",
+        "value": "",
+        "required": true
+        },
+        
+    }
 }
