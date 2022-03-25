@@ -1,0 +1,11 @@
+{
+    "name": "Jocasta Checker",
+    "description": "Bot By @r0ld3x",
+    "logo": "",
+    "keywords": [
+        "Telegram"
+    ],
+    "repository": "https://github.com/r0ld3x/python-checker-bot",
+    "success_url": "https://github.com/r0ld3x/python-checker-bot",
+    "stack": "heroku-20"
+}
